@@ -1,0 +1,233 @@
+*{
+  margin:0;
+  padding: 0;   /*check*/
+}
+body{
+  background:linear-gradient(#9b4811,#602700);
+  background:-webkit-linear-gradient(#9b4811,#602700);
+  background:-moz-linear-gradient(#9b4811,#602700);
+  background:-o-linear-gradient(#9b4811,#602700);
+  height:100%;
+  width:100% /*check*/
+}
+
+img{
+  margin:auto;
+  display:block;
+}
+
+#coupon1{
+  
+}
+
+.font{
+  font-family: 'Merriweather', serif;
+  position:relative;
+  bottom:15px;
+}
+
+#result,#result1,#result2,#result3,#result4,#result5,#result6,#result7{
+  display:inline;
+}
+
+
+h2{
+  text-align:center;
+}
+
+.c-title{
+    font-family: 'Kaushan Script', cursive;
+    position:relative;
+    bottom:20px;
+}
+
+.this{
+  display:inline;
+}
+
+.red{
+  color:red;
+  display:inline;
+  font-family: 'Passion One', cursive;
+  font-size: 20px;
+  text-transform:uppercase;
+}
+
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+  pointer-events:none;
+}
+
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+}
+
+.modalDialog1 {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSymoQdtmvOZHrcr_HH4Gqs5HtkDQ7zx9edz5cZ1-cTdKpnWQm-XQ);
+   /* background-size: 100% 100%;*/
+    background-repeat:repeat;
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+  pointer-events:none;
+}
+
+.modalDialog1:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog1 > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+}
+
+
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }
+
+.coupons{
+  transform:translateY(10px);
+  position:relative;
+  left:9%;  /*check*/
+}
+
+li,ul{
+  list-style-type:none; /*check*/
+}
+
+#coupon1,#coupon2,#coupon3,#coupon4,#coupon5,#coupon6,#coupon7,#coupon8{
+  padding: 4% 0px;
+  background: linear-gradient(-45deg,#b25e18,#ffc300,#b25e18);
+  text-align:center;
+  margin-bottom: 1.15%;
+  border-radius: 50px 0px 50px 0px;
+  height: 80px;
+  width:80%;
+ /* box-shadow: 10px 10px 5px #602d01; check*/
+}
+
+.button{
+  border: 2px Solid Silver;
+  background-color: White;
+  color: Black;
+  text-decoration:none;
+  border-radius: 10px;
+  overflow:hidden;
+  font-family: Gotham, san-serif;
+  padding: 7px 5px;
+  transition-duration: 0.4s; /*check*/
+}
+
+.button:hover{
+  background-color:Green;
+  color:White; /*check*/
+}
+
+.bpos{
+  transform: translate(0px, 9px);/*check*/
+}
+
+a.nav{
+  display: inline;
+  color: #ffc300 ;
+  text-decoration: none;
+  text-align:center;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:600;
+  background-color: #ad5c20;
+  padding: 5px 10% 5px 10%;
+  height: 30px;
+  border-radius:10px;
+  margin-right: 0.6%;
+  transition-duration: 0.4s; /*check*/
+}
+
+a.nav:hover{
+  background-color: #e9ebee;
+  color:#43609c;
+}
+
+li.nav{
+  display: inline;  /*check*/
+}
+
+div.nav{
+  position:relative;
+  transform:translateY(-80px);
+  left: 15%; /*check*/
+}
+
+.header{
+  font-family: 'Kaushan Script', cursive;
+  background: linear-gradient(#ffc300,#b25e18);
+  color:#ad5c20;
+  text-shadow: 2px 2px 4px #000000;
+  height: 100px;
+  min-height: 50px;
+  max-height: 300px;
+  margin:auto;
+  width:100%;
+  max-width:5000px;
+  min-width: 400px;
+  padding: 20px 0px 0px 20px;
+  position:relative;
+  box-shadow: 10px 10px 5px #602d01; /*check*/
+}
